@@ -1,0 +1,12 @@
+[package]
+name = "shell-with-rust"
+version = "0.1.0"
+authors = ["Hyde"]
+edition = "2021"
+rust-version = "1.80"
+
+[dependencies]
+anyhow = "1.0.68"                                # error handling
+bytes = "1.3.0"                                  # helps manage buffers
+is_executable = "1.0.4"
+thiserror = "1.0.38"                             # error handling
